@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Hyde
+tagline:          'Meave Labs Blog'
+description:      'Meave Labs Blog'
+url:              http://meave-labs.github.io
+baseurl:          /
+
+author:
+  name:           'Daniel R. Fiala'
+  url:            https://example.org
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/meave-labs/meave-labs.github.io
