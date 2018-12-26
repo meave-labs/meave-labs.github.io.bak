@@ -4,10 +4,10 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
-title:            Hyde
+title:            'Meave Labs Blog'
 tagline:          'Meave Labs Blog'
 description:      'Meave Labs Blog'
 url:              http://meave-labs.github.io
