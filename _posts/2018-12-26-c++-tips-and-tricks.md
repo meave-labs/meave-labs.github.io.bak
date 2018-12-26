@@ -17,7 +17,8 @@ Class `Xyz` can access `XyzData` members as its own data and it can set all memb
 It depends on the use-case whether the predecessor should be private or protected.
 
 
--- Using ReadOnly class as a predecessor of a ReadWrite class
+Using ReadOnly class as a predecessor of a ReadWrite class
+----------------------------------------------------------
 
 It seems to be a nice trick to use a class with only get functions as a class with set functions:
 
@@ -42,7 +43,8 @@ It is now possible to create `Config` from `ConfigRW`:
 
 `Config` can be used as a `constexpr` class.
 
--- Simplified definition of a C-string variable
+Simplified definition of a C-string variable
+--------------------------------------------
 
 In C++11 it is possible to write:
 
