@@ -56,8 +56,8 @@ instead of:
     constexpr char constString[] = "Hello World";
 
 
-Difference between `throw()` and `noexcept`
-------------------------------------------
+Differences between `throw()` and `noexcept`
+-------------------------------------------
 
 * `noexcept` calls `std::terminate()` while `throw()` calls `std::unexpected()`.
 * There are `noexcept` operator and `noexcept` specifier.
