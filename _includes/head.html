@@ -27,9 +27,11 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-  <!--  Mathematical support -->
   {% if page.use_math %}
-    {% include mathjax_support %}
+  <!--  Mathematical support -->
+    {% include mathjax_support.html %}
+  {% else %}
+  <!-- Mathematical support not enabled. -->
   {% endif %}
 
 </head>
