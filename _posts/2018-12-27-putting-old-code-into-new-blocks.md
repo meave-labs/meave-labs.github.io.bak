@@ -1,3 +1,9 @@
+---
+layout: post
+title: Refactoring -- Putting Old Code Parts into New Blocks
+---
+
+
 Putting old code into new blocks
 --------------------------------
 

@@ -1,4 +1,10 @@
-C++ tips And Tricks
+---
+layout: post
+title: C++ Tips and Tricks
+---
+
+
+C++ Tips and Tricks
 ==================
 
 Using POD class as a (private) predecessor of a class
